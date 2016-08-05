@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mtstart:war exploded">
+    <output-path>$PROJECT_DIR$/target/mtstart</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mtstart" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/mtstart/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mtstart/web/Web" />
+    </root>
+  </artifact>
+</component>
